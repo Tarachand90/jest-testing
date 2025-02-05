@@ -1,5 +1,5 @@
 /* eslint-disable */
-const { add, subtract, multiply, divide } = require("./mathOperations");
+const { add, subtract, multiply, divide } = require("../src/mathOperations");
 
 describe("Math Operations", () => {
   // Test for add
