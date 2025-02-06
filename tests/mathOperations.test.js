@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { add, subtract, multiply, divide } from "../src/mathOperations.js";
+import { add, subtract, multiply, divide } from "src";
 
 describe("Math Operations", () => {
   // Test for add

@@ -1,4 +1,4 @@
-import { isWeakPassword } from "../src/passwordValidator.js"; // Notice the `.js` extension
+import { isWeakPassword } from "src";
 
 test("should return true for weak passwords", () => {
   expect(isWeakPassword("password123")).toBe(true);

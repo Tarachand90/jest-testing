@@ -1,4 +1,4 @@
-import { isCartEmpty } from "../src/cartService.js";
+import { isCartEmpty } from "src";
 
 test("empty cart should be falsy", () => {
   expect(isCartEmpty([])).toBeTruthy(); // An empty cart means `true` (cart is empty)
