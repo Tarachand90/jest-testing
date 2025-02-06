@@ -8,3 +8,7 @@ export { isWeakPassword } from "./passwordValidator.js";
 export { getProduct } from "./productService.js";
 
 export { getUserById } from "./userService.js";
+
+export { filterEvenNumbers } from "./arrayUtility.js";
+
+export { filterEvenNumbersFromSet } from "./setUtility.js";
