@@ -1,3 +1,1 @@
-const isInvalidEmail = (email) => !!email;
-
-module.exports = { isInvalidEmail };
+export const isInvalidEmail = (email) => !!email;
